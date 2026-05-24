@@ -1,9 +1,0 @@
-{
-  "manifest_version": 3,
-  "name": "Context Auditor",
-  "version": "1.0",
-  "permissions": ["contextMenus", "notifications"],
-  "background": {
-    "service_worker": "background.js"
-  }
-}
