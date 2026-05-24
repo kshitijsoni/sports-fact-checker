@@ -24,10 +24,7 @@ You need to run the local server so the Chrome extension has a brain to talk to.
    ```bash
    pip install fastapi uvicorn groq pydantic
 
-                          Boot up the server:
-
-Bash
-python -m uvicorn main:app --reload
+                          Boot up the server: python -m uvicorn main:app --reload
 
 2. Install the Chrome Extension
 Open Google Chrome and navigate to chrome://extensions/.
